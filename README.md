@@ -1,2 +1,2 @@
 # Traversy Media
-Traversy Media tutorials
+Traversy Media projects and tutorials
