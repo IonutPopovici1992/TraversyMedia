@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F4F4F4;
+    color: #555555;
+    font: normal 16px Arial, Helvetica, sans-serif;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: green;
+}
+
+a:visited {
+    color: black;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+}
+
+.button {
+    background-color: #333;
+    border: none;
+    color: #FFF;
+    padding: 10px 15px;
+}
+
+.button:hover {
+    background-color: red;
+    color: #FFF;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.box-1 {
+    background-color: #333;
+    color: #FFF;
+    border-right: 5px red solid;
+    border-left: 5px red solid;
+    border-top: 5px red solid;
+    border-bottom: 5px red solid;
+    /* Same as above */
+    border-width: 3px;
+    border-bottom-width: 10px;
+    border-top-style: dotted;
+    border: 5px red solid;
+    /* Same as above */
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.box-1 h1 {
+    font-family: Tahoma;
+    font-style: italic;
+    font-weight: 800;
+    letter-spacing: 0.2em;
+    text-decoration: underline;
+    text-transform: uppercase;
+    word-spacing: 1em;
+}
+
+.box-2 {
+    border: 3px dotted #CCC;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.categories {
+    border-radius: 15px;
+    border: 1px solid #CCC;
+    padding: 10px;
+}
+
+.categories h2 {
+    text-align: center;
+}
+
+.categories ul {
+    list-style: none;
+    padding: 0;
+    padding-left: 20px;
+}
+
+.categories li {
+    border-bottom: 1px dotted #333;
+    list-style-image: url('../images/check.png');
+    padding-bottom: 6px;
+}
+
+.main-form {
+    padding: 20px;
+}
+
+.main-form .form-group {
+    padding-bottom: 15px;
+}
+
+.main-form label {
+    display: block;
+}
+
+.main-form input[type="text"], .main-form textarea {
+    padding: 8px;
+    width: 100%;
+}
+
+.block {
+    border: 1px solid #CCC;
+    box-sizing: border-box;
+    float: left;
+    padding: 10px;
+    width: 33.3%;
+}
+
+#main-block {
+    box-sizing: border-box;
+    float: left;
+    padding: 15px;
+    width: 70%;
+}
+
+#sidebar {
+    background-color: #333;
+    box-sizing: border-box;
+    color: #FFF;
+    float: right;
+    padding: 15px;
+    width: 30%;
+}
+
+.p-box {
+    position: relative;
+    background-image: url('../images/light-blue-abstract.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: 1px solid #000;
+    height: 500px;
+    margin-top: 30px;
+    width: 800px;
+}
+
+.p-box h1 {
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+
+.p-box h2 {
+    position: absolute;
+    bottom: 200px;
+    right: 200px;
+}
+
+.fix-me {
+    position: fixed;
+    top: 400px;
+}
+
+.main-list li:first-child {
+    background: red;
+}
+
+.main-list li:last-child {
+    background: blue;
+}
+
+.main-list li:nth-child(5) {
+    background: yellow;
+}
+
+.main-list li:nth-child(even) {
+    background: gray;
+}
